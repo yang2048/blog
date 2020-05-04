@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://blog.yyovo.com/friend/index.html</loc>
+    
+    <lastmod>2020-05-04T07:37:59.660Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://blog.yyovo.com/%E5%B7%A5%E5%85%B7%E6%95%99%E7%A8%8B/%E4%B8%BB%E9%A2%98%E5%B7%A5%E5%85%B7/346ce02e.html</loc>
     
     <lastmod>2020-05-03T17:35:45.431Z</lastmod>
@@ -54,13 +61,6 @@
     <loc>https://blog.yyovo.com/media/index.html</loc>
     
     <lastmod>2020-04-13T11:46:49.300Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://blog.yyovo.com/friend/index.html</loc>
-    
-    <lastmod>2020-04-13T11:46:49.299Z</lastmod>
     
   </url>
   
