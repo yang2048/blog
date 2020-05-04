@@ -11064,8 +11064,21 @@ footer.footer .level-end .field {
   border-left: 3px solid #ff1700;
   background-color: #f9f9f9;
 }
+.recommend-post-row {
+  display: table;
+  clear: both;
+  width: 100%;
+}
 .recommend-post {
   margin: 0 0 1.5rem 0;
+  float: left;
+  width: 50%;
+  padding-left: 50px;
+}
+@media screen and (max-width: 600px) {
+  .recommend-post {
+    width: 100%;
+  }
 }
 .content blockquote {
   background-color: #f5f5f5;
@@ -11110,7 +11123,13 @@ a.navbar-item:hover,
 .navbar-link:hover,
 a.navbar-item.is-active,
 .navbar-link.is-active {
-  background-color: unset;
+  color: #fff;
+  background-color: #5d93db;
+}
+.night .navbar-main .navbar-menu .navbar-item:focus,
+.night .navbar-main .navbar-menu .navbar-item:hover {
+  color: #fff;
+  background-color: #373d48;
 }
 .article hr {
   background-color: #6190e8;
