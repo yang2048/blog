@@ -1,0 +1,63 @@
+/* 动态背景 */
+body {
+  background: url("https://api.btstu.cn/sjbz/api.php?lx=dongman&format=images");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: 50% 50%;
+}
+/*更好的侧边滚动条*/
+::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+::-webkit-scrollbar-button {
+  width: 0;
+  height: 0;
+}
+::-webkit-scrollbar-button:start:increment,
+::-webkit-scrollbar-button:end:decrement {
+  display: none;
+}
+::-webkit-scrollbar-corner {
+  display: block;
+}
+::-webkit-scrollbar-thumb {
+  border-radius: 8px;
+  background-color: rgba(0,0,0,0.2);
+}
+::-webkit-scrollbar-thumb:hover {
+  border-radius: 8px;
+  background-color: rgba(0,0,0,0.5);
+}
+::-webkit-scrollbar-track,
+::-webkit-scrollbar-thumb {
+  border-right: 1px solid transparent;
+  border-left: 1px solid transparent;
+}
+::-webkit-scrollbar-track:hover {
+  background-color: rgba(0,0,0,0.15);
+}
+::-webkit-scrollbar-button:start {
+  width: 10px;
+  height: 10px;
+/*background: url(../images/scrollbar_arrow.png) no-repeat 0 0;*/
+/*可以添加滚动条样式*/
+}
+/* 感谢阅读 */
+.read-over {
+  text-align: center;
+  margin-top: 20px;
+  color: rgba(217,11,24,0.569);
+  font-size: 18px;
+}
+widescreen()
+.navbar-logo img {
+  max-height: 2.75rem;
+}
+.footer-logo img {
+  max-height: 3rem;
+}
+.footer {
+  box-shadow: 0px 4px 10px 10px rgba(0,0,0,0.05);
+  padding: 3rem 1.5rem 2rem;
+}
