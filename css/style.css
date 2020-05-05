@@ -12399,6 +12399,17 @@ body {
   color: rgba(217,11,24,0.569);
   font-size: 18px;
 }
+.column {
+  padding: 0.5rem;
+}
+.card + .card,
+.card + .column-right-shadow {
+  margin-top: 0.8rem;
+}
+.post-navigation {
+  background: #fff;
+  padding-top: 10px;
+}
 @media screen and (min-width: 1280px) {
   .is-1-column .container,
   .is-2-column .container,

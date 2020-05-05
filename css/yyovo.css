@@ -50,6 +50,17 @@ body {
   color: rgba(217,11,24,0.569);
   font-size: 18px;
 }
+.column {
+  padding: 0.5rem;
+}
+.card + .card,
+.card + .column-right-shadow {
+  margin-top: 0.8rem;
+}
+.post-navigation {
+  background: #fff;
+  padding-top: 10px;
+}
 widescreen()
 .navbar-logo img {
   max-height: 2.75rem;
